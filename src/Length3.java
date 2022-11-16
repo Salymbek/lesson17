@@ -7,6 +7,6 @@ public class Length3 extends Shape{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return getLength1()+getLength2()+getLength3()+getLength4();
     }
 }
